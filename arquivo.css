@@ -1,0 +1,47 @@
+body {
+	position: relative;
+	background-image: url("https://uploaddeimagens.com.br/images/004/524/904/original/Te_amo_story.png?1688002029");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3); /* Cor de sobreposição semi-transparente */
+	z-index: -1;
+}
+
+.container {
+	margin: 20px;
+  color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+.perfil img {
+	display: block;
+	margin: 0 auto;
+}
+
+.carta p {
+	text-align: justify;
+	margin-bottom: 10px;
+  color: white;
+}
+
+.botao {
+	text-align: center;
+	margin-top: 20px;
+}
+.a{
+  height: 100px;
+  align-items: center;
+  weight: 50px;
+}
