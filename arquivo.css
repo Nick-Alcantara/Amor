@@ -1,6 +1,6 @@
 body {
 	position: relative;
-	background-image: url("https://uploaddeimagens.com.br/images/004/525/327/full/Te_amo_story.png?1688049402");
+	background-image: url("https://a.imagem.app/oGyiIk.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -24,6 +24,7 @@ body::before {
 
 h1 {
 	text-align: center;
+	text-shadow: black;
 }
 
 .perfil img {
