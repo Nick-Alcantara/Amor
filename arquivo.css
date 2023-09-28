@@ -1,6 +1,6 @@
 body {
 	position: relative;
-	background-image: url("https://a.imagem.app/oGyiIk.jpeg");
+	background-image: url("https://uploaddeimagens.com.br/images/004/620/982/full/Te_amo_story_%282%29.png?1695901409");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -18,13 +18,13 @@ body::before {
 
 .container {
 	margin: 20px;
-	color: white;
-	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 h1 {
 	text-align: center;
-	text-shadow: 2px 2px 4px black;
+	text-shadow: black;
 }
 
 .perfil img {
@@ -35,17 +35,15 @@ h1 {
 .carta p {
 	text-align: justify;
 	margin-bottom: 10px;
-	color: white;
+  color: white;
 }
 
 .botao {
 	text-align: center;
 	margin-top: 20px;
 }
-
-/* Adicionei um estilo para a classe 'a' */
-.a {
-	height: 100px;
-	align-items: center;
-	width: 50px; /* Corrigi 'weight' para 'width' */
+.a{
+  height: 100px;
+  align-items: center;
+  width: 50px;
 }
