@@ -18,13 +18,13 @@ body::before {
 
 .container {
 	margin: 20px;
-  color: white;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+	color: white;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 h1 {
 	text-align: center;
-	text-shadow: black;
+	text-shadow: 2px 2px 4px black;
 }
 
 .perfil img {
@@ -35,15 +35,17 @@ h1 {
 .carta p {
 	text-align: justify;
 	margin-bottom: 10px;
-  color: white;
+	color: white;
 }
 
 .botao {
 	text-align: center;
 	margin-top: 20px;
 }
-.a{
-  height: 100px;
-  align-items: center;
-  weight: 50px;
+
+/* Adicionei um estilo para a classe 'a' */
+.a {
+	height: 100px;
+	align-items: center;
+	width: 50px; /* Corrigi 'weight' para 'width' */
 }
